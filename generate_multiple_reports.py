@@ -33,7 +33,6 @@ def open_yaml(filepath):
         data = yaml.load(file, Loader=yaml.FullLoader)
     return data
 
-
 ###     API functions
 
 
@@ -71,6 +70,17 @@ def chat_print(text):
     formatted_text = '\n'.join(formatted_lines)
     print('\n\n\nCHATBOT:\n\n%s' % formatted_text)
 
+### Prompt
+prompts = [
+    "What does dreaming about water signify?",
+    "How do common symbols in dreams get interpreted?",
+    "What insights do dreams offer according to psychoanalytic theory?",
+    "What dreams tell us about our past or future?",
+    "What are the most common dream archetypes?",
+    "What are the most common dream symbols?",
+    "What dreams trying to tell us?",
+    # Add more prompts as needed
+]
 
 
 
